@@ -1,0 +1,7 @@
+@using ViewModelFun.Models
+@model List<Individual>
+
+@foreach(var ind in Model)
+{
+    <p style="text-align: center;">@ind.FirstName @ind.LastName</p>
+}
